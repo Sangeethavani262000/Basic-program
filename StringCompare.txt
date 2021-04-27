@@ -1,0 +1,12 @@
+import java.util.Scanner;
+import java.util.Arrays;
+class StringCompare{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+String s1=sc.nextLine();
+String s2=sc.nextLine();
+System.out.println(s1.equals(s2));       //       Method 1
+ // System.out.println(s1.compareTo(s2));	  Method 2
+ // System.out.println(s1==s2);			  Method 3
+}
+}

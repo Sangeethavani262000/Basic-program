@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Add{
+public static void main(String[] args){
+int a,b,c; 
+Scanner sc = new Scanner(System.in);
+System.out.pintln("Adding two numbers a and b");
+a=sc.nextInt();
+b=sc.nextInt();
+c=a+b;
+System.out.println("Adding two numbers is"+ c);
+}
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Factorial{
+public static void main(String[] args){
+int n; 
+Scanner sc = new Scanner(System.in);
+System.out.pintln("Adding two numbers a and b");
+n=sc.nextInt();
+  for(i=1;i<=n;i++){
+	fact=fact*i;
+   }
+System.out.println("Adding two numbers is"+ fact);
+ }
+}

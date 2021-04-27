@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class AreaOfTriangle{
+public static void main(String[] args){
+Scanner sc = new Scanner(Sysytem.in);
+int b=sc.nextInt();
+int h=sc.nextInt();
+float area;
+area = (float)(0.5*b*h);
+System.out.println("Area of the circle is" + area);
+}
+}

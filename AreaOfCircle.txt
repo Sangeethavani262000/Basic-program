@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class AreaOfCircle{
+public static void main(String[] args){
+Scanner sc = new Scanner(Sysytem.in);
+int radius=sc.nextInt();
+float area;
+area = (float)(3.14*rdius*radius);
+System.out.println("Area of the circle is" + area);
+}
+}

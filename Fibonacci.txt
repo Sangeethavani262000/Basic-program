@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Fibonacci{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+int f=0,s=1,result,n,count=0;
+int n= sc.nextInt();
+ while(true){
+  result=f+s;
+  count++;
+if(result>=n){
+   break;
+}
+f=s;
+s=result;
+System.out.println("Fibonaci Series is"+result);
+}
+}
+}

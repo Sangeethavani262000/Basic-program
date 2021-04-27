@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Armstrong{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+int n=1,i=0;
+n=sc.nextInt();
+while(n>0){
+ i=n%10;
+ n=n/10;
+ sum=sum+(i*i*i);
+}
+ if(sum==n){
+   System.out.println("sum+"is a Armsteong number");
+  }
+ else{
+   System.out.println("sum+"is not a Armsteong number");
+  }
+ }
+}
