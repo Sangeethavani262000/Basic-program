@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Methods{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+String s=sc.nextLine();
+System.out.println("\nLength of String is "+s.length());
+System.out.println("\ntrim() is "+s.trim());
+System.out.println("\nString after toLower case() is "+s.toLowerCase());
+System.out.println("\nString after toUpper case() is "+s.toUpperCase());
+System.out.println("\nCharacter at 4th index is "+s.charAt(4));
+System.out.println("\nIndex of 'a' is "+s.indexOf('a'));
+System.out.println("\nIndex of 'g' after index 5 is "+s.idexOf('a,5));
+System.out.println("\nSubstring from 10 th index is "+s.substring(10));
+System.out.println("\nSubstring from 0 to 10 th index is "+s.substring(0,10));
+System.out.println("\nAfter Replacing s with a index is "+s.replace('s','a'));
+}
+}

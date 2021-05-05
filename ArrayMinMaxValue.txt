@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class MinMaxExample { 
+  public static void main(String args[]){
+  Scanner sc = new Scanner(System.in);
+  int min,max,i;
+  int arr[] = new int[10];
+  System.out.println("Enter the value");
+  for(i=0;i<10;i++){
+     arr[i]=sc.nextInt();
+   }
+min=arr[0];
+max=arr[0];
+for(i=1;i<10;i++){
+  if(max<arr[i]){
+    max=arr[i];
+}
+if(min>arr[i]){
+  min=arr[i];
+}
+}
+System.out.println("Min and Max value is"+min+" "+max);
+}
+}

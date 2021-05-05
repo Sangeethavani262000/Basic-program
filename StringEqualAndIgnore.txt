@@ -1,0 +1,17 @@
+import java.util.Scanner;
+import java.util.Arrays;
+class EqualIgnoreCase{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+String s1=sc.nextLine();
+String s2=sc.nextLine();
+Case1 = s1.equalIgnoreCase(s2);   
+Case2 = s1.equalIgnoreCase(s2);	  
+Case3 = s1.equalCase(s2);        
+System.out.println(Case1);	// s1=sangee  s2=SANGEE  => True
+System.out.println(Case2);	// s1=sangee  s2=divya   => False
+System.out.println(Case3);	// s1=sangee  s2=SANGEE  => False
+}
+}
+
+

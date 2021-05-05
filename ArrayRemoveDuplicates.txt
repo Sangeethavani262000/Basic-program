@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class RemoveDuplicates{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+int n,i,j,k;
+int arr[] = new int[50];
+n=sc.nextInt();
+for(i=0;i<n;i++){
+ arr[i]=sc.nextInt();
+}
+for(i=0;i<n;i++){
+for(j=i+1;j<n;){
+ if(arr[i]==arr[j]){
+for(k=j;k<n;k++){
+ arr[k]=arr[k+1];
+}
+n--;
+}
+ else{
+  j++;
+ }
+ }
+}
+ for(i=0;i<n;i++){
+  System.out.println(arr[i]+" ");
+}
+}
+}

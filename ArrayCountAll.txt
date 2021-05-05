@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class CountAll{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+int i,vowel=0,const=0,space=0,symbol=0,digit=0;
+String s =sc.nextLine();
+s=s.tolowwerCase();
+for(i=0;i<s.length();++i){
+  char ch = s.charAt(i);
+if(ch =='a' || ch='e'|| ch='i' ||ch='o' ||ch='u'){
+   ++vowel;
+}
+else if(ch>='a' && ch<='z'){
+  ++constant;
+}
+else if(ch>='0' && ch<=9){
+  ++digits;
+}
+else if(ch ==' '){
+ ++space;
+}
+else{
+ ++symbol;
+}
+System.out.println("Vowels " +vowel);
+System.out.println("constant " +constant);
+System.out.println("digits " +digits);
+System.out.println("space " +space);
+System.out.println("symbol " +symbol);
+}
+}

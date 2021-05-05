@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class SearchElement{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+int i,n;
+boolean found = false;
+n=sc.nextInt();
+int arr[]=new int[10];
+for(i=0;i<10;i++){
+ arr[i]=sc.nextInt();
+}
+for(i=0;i<10;i++){
+if(n==arr[i]){
+found=true;
+break;
+}
+}
+if(found){
+System.out.println("Yes,Number is present in the array");
+}
+else{
+System.out.println("No,Number is not present in the array");
+}
+}
+}

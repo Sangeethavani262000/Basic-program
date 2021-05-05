@@ -1,0 +1,11 @@
+import java.util.StringTokenizer;
+class StringTokenizer{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+StringTokenizer st= new StringTokenizer(str,"_");
+while(st.hasMoreTokens()){
+String token= st.nextToken();
+System.out.println(token+"\n");
+}
+}
+}

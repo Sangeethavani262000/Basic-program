@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class StringBuffered{
+public static void main(String[] args)throws Exception{
+StringBuffer sb= new StringBuffer("www.");
+ System.out.println(sb);               // www.
+sb.insert(4,google");
+ System.out.println(sb);   	      // www.google
+sb.append(".com");
+ System.out.println(sb);	     // www.google.com
+sb.reverse();s
+ System.out.println(sb);             // moc.elgoog.www
+sb.setCharAt(5,'');
+ System.out.println(sb);            // www.g ogle.com
+sb.deleteCharAt(3);		    
+ System.out.println(sb);           // wwwg ogle.com
+
+
